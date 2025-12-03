@@ -1,0 +1,29 @@
+{
+  "name": "mcp-secure-delete",
+  "version": "0.1.0",
+  "description": "MCP server para borrado seguro de archivos en Linux",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "secure-delete",
+    "filesystem"
+  ],
+  "author": "Cristian",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.1.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "type": "module"
+}

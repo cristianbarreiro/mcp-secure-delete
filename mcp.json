@@ -1,0 +1,22 @@
+{
+  "name": "secure-delete",
+  "version": "0.1.0",
+  "description": "MCP server para borrado seguro (best effort) de archivos en Linux.",
+  "license": "MIT",
+  "server": {
+    "command": "node",
+    "args": [
+      "dist/server.js"
+    ]
+  },
+  "tools": [
+    {
+      "name": "check_path",
+      "description": "Devuelve informaci\u00f3n b\u00e1sica sobre un path en el sistema de archivos."
+    },
+    {
+      "name": "secure_delete",
+      "description": "Borra de forma segura un archivo o directorio (best effort) usando 'shred' en Linux."
+    }
+  ]
+}
