@@ -2,11 +2,6 @@
 
 Servidor MCP para borrado "seguro" (best effort) de archivos y directorios en Linux.
 
-> ⚠️ **Advertencia importante**  
-> En discos SSD/NVMe, sistemas de ficheros con journaling (ext4, etc.), snapshots (btrfs, ZFS, LVM), etc.,  
-> **no hay garantía absoluta** de que el borrado sea físicamente irrecuperable.  
-> Este proyecto ofrece un borrado *best-effort* a nivel de sistema de archivos usando `shred`.
-
 ## Requisitos
 
 - Node.js 20+ (recomendado)
