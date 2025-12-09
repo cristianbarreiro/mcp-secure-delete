@@ -4,7 +4,7 @@
 			"type": "stdio",
 			"command": "node",
 			"args": [
-				"/home/one/Descargas/mcp-secure-delete/dist/server.js"
+				"dist/server.js"
 			]
 		}
 	},
